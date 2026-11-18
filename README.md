@@ -38,6 +38,8 @@ Windows 10 oder 11, **64 Bit**. Nicht verfügbare Sensoren werden nicht durch Be
 
 Ein externes Overlay ist nicht in jedem Spiel und exklusiven Vollbildmodus sichtbar. Für VALORANT/Vanguard gelten die vorhandenen Schutzregeln: keine Umgehung und keine erzwungenen Hooks. Je nach Spiel ist die Anzeige im Dashboard auf einem zweiten Monitor die geeignete Alternative. Eine allgemeine Anti-Cheat-Freigabe wird nicht behauptet.
 
+![Sichtbares Eingabefeld beim Speichern eines Presets](screenshots/preset-speichern.png)
+
 ## Transparente Veröffentlichung
 
 Update-Dateien werden mit **Ed25519** signiert und zusätzlich mit einer SHA-256-Prüfsumme veröffentlicht. Diese Update-Signatur ist kein Windows-Authenticode-Herausgeberzertifikat. Es werden keine Benutzerkonfigurationen, privaten Protokolle oder Signierschlüssel veröffentlicht.
