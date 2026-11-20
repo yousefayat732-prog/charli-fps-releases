@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "version": "0.25.1",
+  "version": "0.25.2",
   "platform": "windows-x64",
   "channel": "stable",
   "minimum_windows": "10.0",
-  "url": "https://github.com/yousefayat732-prog/charli-fps-releases/releases/download/v0.25.1/Charli-FPS-0.25.1-Setup-x64.exe",
-  "notes": "https://github.com/yousefayat732-prog/charli-fps-releases/releases/tag/v0.25.1",
-  "sha256": "6b429d33e5d320f52101499942c464388b739315959c30a60f2f58933b6a4821",
-  "length": 159449910,
-  "ed_signature": "X+P3iKCIGJrS6kkHpoeyNbSiS9m/9M18kjmCv3PjeiUPmorSqnJkaMAV65MBo5yw22HoH/DFyYFdWQE8/7quBw=="
+  "url": "https://github.com/yousefayat732-prog/charli-fps-releases/releases/download/v0.25.2/Charli-FPS-0.25.2-Setup-x64.exe",
+  "notes": "https://github.com/yousefayat732-prog/charli-fps-releases/releases/tag/v0.25.2",
+  "sha256": "0c2c00b33e205333b1503c3ccedbc9961a59dbfe6af01c29dba2a8cc18b8e1b2",
+  "length": 159451431,
+  "ed_signature": "aM3wJyGdLrwhyG9dISYedGI1TkT3llwcbVgsX5RkpfsdxIZXTWQ7V2yOFHZ9Uc4926/70k/ZYNSPxvZIkiIOAw=="
 }
