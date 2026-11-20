@@ -24,6 +24,22 @@ Forest, Pure Black, Azure Night, Glacier, Solar Dusk, Violet Pulse, Emerald Luxe
 - Ein gemeinsamer Player für acht lokale MP4-Hintergründe. Nur das aktive Theme wird geladen; Hardwaredecodierung wird genutzt, wenn Windows und Treiber sie unterstützen. Minimieren und aktivierte Spiel-Pausierung reduzieren die Hintergrundarbeit. Reduced Motion verwendet das Originalbild.
 - Einstellbare Hover- und Klickübergänge sowie Eco-, Balanced- und Premium-Profile für die Oberfläche. Die visuelle Glättung verändert keine gemessenen FPS.
 
+## Liquid Glass und Charli AI
+
+![Vollseitige Liquid-Glass-Einstellungen](screenshots/charli-settings.png)
+
+Die vorhandene Navigation, acht Original-Themes und sämtliche Messfunktionen bleiben erhalten. Eigene statische Bild-Themes lassen sich zusätzlich speichern, aktivieren, umbenennen, farblich anpassen, exportieren und nach Bestätigung löschen.
+
+![Echte Hydrogen-Antwort im installierten Chat](screenshots/charli-ai.png)
+
+Charli AI nutzt deinen eigenen Gemini-Zugang. Stop bricht laufende Aufträge ab; Fehler erhalten Entwürfe und empfangene Teilantworten. PNG-, JPEG- und WEBP-Anhänge werden lokal vorgemerkt und erst bewusst mit einer Nachricht gesendet. WEBP benötigt einen passenden Windows-Codec. Bilder bleiben standardmäßig im Sitzungsspeicher.
+
+![Verbindungsstatus mit echtem Erfolgsnachweis](screenshots/charli-ai-connection.png)
+
+Ein gespeicherter Schlüssel allein erzeugt keinen verbundenen Status. Modell und Erfolgszeit beruhen auf einer tatsächlichen Antwort. Schlüssel werden für das Windows-Benutzerkonto verschlüsselt gespeichert.
+
+Bildgenerierung verwendet ein getrennt ausgewähltes Bildmodell, ist standardmäßig aus und verlangt vor jedem Auftrag eine Bestätigung. Modellzugriff, Kontingent, Antwortzeit und Kosten hängen vom Anbieter ab. Es gibt keinen automatischen Modellwechsel und keine automatischen Bild-Neuversuche.
+
 ## Installation und Updates
 
 1. Das aktuelle **Setup-x64.exe** unter [Releases](https://github.com/yousefayat732-prog/charli-fps-releases/releases/latest) herunterladen und ausführen.
@@ -44,4 +60,6 @@ Ein externes Overlay ist nicht in jedem Spiel und exklusiven Vollbildmodus sicht
 
 Update-Dateien werden mit **Ed25519** signiert und zusätzlich mit einer SHA-256-Prüfsumme veröffentlicht. Diese Update-Signatur ist kein Windows-Authenticode-Herausgeberzertifikat. Es werden keine Benutzerkonfigurationen, privaten Protokolle oder Signierschlüssel veröffentlicht.
 
-Version 0.24.0 wurde mit gezielten Mess-, Einstellungs-, Layout- und Interaktionstests geprüft. Die acht Videos wurden lokal über jeweils zwei vollständige Loops geprüft. Das ist keine Garantie für jeden GPU-Treiber, physisch sichtbare 180 Bilder/s oder die Sichtbarkeit in jedem Spiel. Weitere Einzelheiten stehen in den jeweiligen Release-Hinweisen.
+Für 0.25.0 bestanden lokal 188 kontrollierte KI-Prüfungen, native Einstellungs-/Bild-/Theme-Tests und ein Hardware-Lauf mit 32 Original-Theme-Wechseln plus vier eigenen Standbild-/Originalwechseln. Eine echte Hydrogen-Textantwort wurde im installierten Chat geprüft. Der unabhängige Windows-Build bestand 19 Tests; vier Desktop-/GPU-Tests wurden auf dem GitHub-Runner übersprungen und stattdessen lokal geprüft.
+
+Reale Bildgenerierung und physische Mikrofon-/Hörabnahme wurden nicht automatisch freigeschaltet oder als bestanden ausgegeben. Ein zusätzlicher Bildverständnis-Aufruf erhielt zuletzt einen Anbieterfehler 503. Format- und Modellunterstützung garantieren keine momentane Verfügbarkeit beim Anbieter. Auch physisch sichtbare 180 Bilder/s oder die Sichtbarkeit in jedem Spiel werden nicht pauschal zugesichert. Einzelheiten stehen in den jeweiligen Release-Hinweisen.
